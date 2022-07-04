@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.source.dao.test.UsersDAOTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="selectByIdTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="testUpdate"/>
+          <include name="beforeMethod"/>
+          <include name="testDelete"/>
+          <include name="deleteTest"/>
+          <include name="selectAllTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.source.dao.test.UsersDAOTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
